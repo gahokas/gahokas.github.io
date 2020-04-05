@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Welcome
+## Welcome!
 
 _yay_
 
