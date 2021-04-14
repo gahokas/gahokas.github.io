@@ -7,7 +7,7 @@ layout: default
 
 Twitter: [@gahokas](https://twitter.com/gahokas)
 
-Strava: (https://www.strava.com/athletes/1130999)
+Strava: [strava](https://www.strava.com/athletes/1130999)
 ### Header 3
 
 ```js
