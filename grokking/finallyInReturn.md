@@ -28,6 +28,24 @@ public class App {
 }
 ```
 
+**What will happen?**
+
+Well, return statements inside finally blocks are permitted. You will get a warning
+> finally block does not complete normally
+because of the return statement, but it will compile and run. As with other return statements, you can't have any code after it, either in the finally block or at the end of the method. You will get a
+> unreachable code
+compile error.
+
+But what about the return statement in the try block vs the finally block? The return statement in the finally block will "override" the return statement in the try block, so the code will output
+```
+Hello, World!
+Calculating...
+In finally
+Result: Return from finally
+```
+
+Interesting! Generally I would advise against this coding practice, as I think this would lead to non-obvious code and make it more difficult to understand and maintain for other developers on the team, but it is interesting to know.
+
 
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
