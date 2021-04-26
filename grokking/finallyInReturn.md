@@ -32,8 +32,10 @@ public class App {
 
 Well, return statements inside finally blocks are permitted. You will get a warning
 > finally block does not complete normally
+
 because of the return statement, but it will compile and run. As with other return statements, you can't have any code after it, either in the finally block or at the end of the method. You will get a
 > unreachable code
+
 compile error.
 
 But what about the return statement in the try block vs the finally block? The return statement in the finally block will "override" the return statement in the try block, so the code will output
