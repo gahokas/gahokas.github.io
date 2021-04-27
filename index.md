@@ -4,7 +4,12 @@ layout: default
 
 ## Java
 
-[Grokking the Java Interview](grokking/finallyInReturn)
+### Grokking the Java Interview
+
+[Javin Paul's](https://twitter.com/javinpaul) [Grokking the Java Interview](https://gumroad.com/l/QqjGH) is an excellent, broad range of Java-based topics that any programmer preparing for an interview, or wanting to brush up on their Java skills, should pick up. Below are some of the questions I found tricky along with some sample code as I investigated the answer.
+
+#### Telephonic round
+* [Question 19: Can we have a return statement in a finally block?](grokking/finallyInReturn)
 
 
 ## Contact
