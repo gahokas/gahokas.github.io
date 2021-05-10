@@ -11,6 +11,7 @@ layout: default
 #### Telephonic round
 * [Question 19: Can we have a return statement in a finally block?](grokking/finallyInReturn)
 
+* [Question 28: Write a program to solve the Producer Consumer problem in Java](grokking/producerConsumer)
 
 * * * 
 
