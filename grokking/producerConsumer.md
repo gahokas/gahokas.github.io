@@ -213,6 +213,8 @@ public class SharedQueue {
 }
 ```
 
+## Multiple Producers / Consumers
+
 A feature of our implementation is that it is very easy to add more Producer and Consumer threads. The implementation could be used as the basis for a dynamic service that could automatically scale up / down by adding / removing threads, as demand changes.
 
 
