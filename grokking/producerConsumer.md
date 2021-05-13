@@ -150,6 +150,7 @@ public class SharedQueue {
 }
 ```
 
+### Consumer Implementation
 
 The SharedQueue uses a sychronized instance method get(), which calls notify() to tell the Consumer when it has added the output to the Queue. The consumer thread won't be able to proceed with taking an item off of the queue until the Producer finishes executing the get() method, since only one thread can be executing inside of a guarded block at a time per insance of the object (we only have one instance of the SharedQueue).
 
@@ -165,8 +166,9 @@ The Consumer calls Object.wait() to wait for 10 seconds, from [Object.wait() Jav
 
 * Object.wait() will throw an InterruptedException when notified or interruped by another thread.
 * Object.wait() will return normally when 10 seconds have expired
+* Object.wait() will return normally before 10 seconds have expired, due to spurious wakeup
 
-and the tricky part: Object.wait() can return BEFORE being interruped or timing out, a spurious wakeup. Exactly what spurious wakeups are and why they (rarely) occur is another topic, but we need to be aware of them. This adds complication to the implementation, because we need to check if Object.wait() is returning because it has timed out, or because a spurious wakeup has occurred. We need to keep track of how long the thread has slept, and when Object.wait() returns, if we have not slept long enough and there is still no objects on the Queue, we need to sleep more until 10 seconds has elapsed.
+Exactly what spurious wakeups are and why they (rarely) occur is another topic, but we need to be aware of them. This adds complication to the implementation, because we need to check if Object.wait() is returning because it has timed out, or because a spurious wakeup has occurred. We need to keep track of how long the thread has slept, and when Object.wait() returns, if we have not slept long enough and there are still no objects on the Queue, we need to sleep more until 10 seconds has elapsed.
 
 This leads to the complete implementation of our SharedQueue:
 
