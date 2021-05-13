@@ -5,6 +5,8 @@ layout: default
 
 The Producer consumer problem is a generalized problem that requires threads to safely coordinate access to a shared resource. The resource is not thread-safe, so only one thread may be modifying (adding or removing) from it at at time. This resource could be a shared data structure in memory, or a file on the filesystem, etc. 
 
+## Detailed Requirements
+
 We will use the shared data structure example. One or more Producer threads produce some output and add it to a shared queue (a first-in-first-out linked list) . A producer thread signals to a consumer thread when some output is produced. A consumer thread then removes the output from the shared queue consumes it.
 
 For our purposes, we add some detailed requirements:
@@ -12,11 +14,15 @@ For our purposes, we add some detailed requirements:
 * A producer signals to a consumer that a unit of output has been added to the shared queue, so the consumer "knows" when to check the queue. This prevents the consumer from having to "poll" the queue at regular intervals for output.
 * A consumer waits for 10 seconds. If nothing has been added to the queue in 10 seconds, it assumes the producer is done and quits.
 
+## General Approach
+
 There are a few design approaches we could take with this problem:
 * Have a thread-safe Queue, so that only one thread (Producer or Consumer) can access the Queue at a time (to either add or remove items)
 * Have a non-thread-safe Queue, and require the Producer and Consumer to sychronize access to the Queue themselves.
 
 The first approach nicely encapsulates all the complexities of the sychronization code within the Queue itself, leaving a simple implementation for the Producer and Consumer. It also encourages code re-use, as a thread-safe Queue could be useful for other projects, and used safely and easily by other programmers, even if they're not totally familiar with details of thread-safe implementations.
+
+## Guarded Blocks
 
 How do we make the Queue thread-safe? We need to guarantee that only one thread, a producer or consumer, is modifying (adding to or removing from) the Queue at at time? Java has the concept of a guarded block, a block of code or method that is guranteeded to be executed by only one thread at a time for a particular object. Within a guarded block, we can use Object.wait and Object.notify. The consumer uses Object.wait to wait for a notification from the producer that something has been added to the queue. The producer will use Object.notify to tell the consumer that something has been added.
 
@@ -30,10 +36,14 @@ Only one thread at a time can own an object's monitor. Our shared Queue can have
 
 When a consumer calls Object.wait(), it releases its lock on the shared queue and suspends execution, and allows the producer to execute the put(Object) synchronized method to add something to the queue.
 
+## Design
+
 Our general design can be as follows:
 * Our main method creates a shared Queue object
 * The main method starts up Producer and Consumer threads, giving each a reference to the shared Queue
 * The shared queue will use sychronized instance methods get() and put(Object) to ensure only one thread is accessing the Queue at a time
+
+## Implementation
 
 Our main App class:
 
