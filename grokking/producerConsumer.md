@@ -240,3 +240,4 @@ public class App {
 When multiple Producer / Consumer threads are running, each safely adds / removes from the first-in-first-out shared queue. Note that when SharedQueue.put() calls notify(), we don't actually know which Consumer thread will be notified (nor do we really care). It is up to the Java implementation to pick one.
 
 
+[Sample code here](https://github.com/gahokas/grokking)

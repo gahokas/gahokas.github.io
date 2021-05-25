@@ -47,3 +47,5 @@ Result: Return from finally
 ```
 
 Interestingly, the return statement in the try block is not executed! Generally I would advise against this coding practice, as I think this would lead to non-obvious code and make it more difficult to understand and maintain for other developers on the team, but it is handy to know in case you encounter it.
+
+[Sample code here](https://github.com/gahokas/grokking)
