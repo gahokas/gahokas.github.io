@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Telephonic round 28) Write a program to solve the Producer Consumer problem in Java
+# Grokking the Java Interview page 51) Write a program to solve the Producer Consumer problem in Java
 
 The Producer consumer problem is a generalized problem that requires threads to safely coordinate access to a shared resource. The resource is not thread-safe, so only one thread may be modifying (adding or removing) from it at at time. This resource could be a shared data structure in memory, or a file on the filesystem, etc. 
 
