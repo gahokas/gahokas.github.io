@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-# Grokking the Java Interview page 86) How do you serialize an object in java?
+# Grokking the Java Interview (page 86)
+
+# How do you serialize an object in java?
 
 
 Serialization is the process of saving an object to a file (or transferring it across a network). The object can then be de-serialized at a later time by a different process to rebuild the object. 

@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-# Grokking the Java Interview page 34) Can we have return statement in finally clause? What will happen?
+# Grokking the Java Interview (page 34)
+
+# Can we have return statement in finally clause? What will happen?
 
 This is an interesting question. I don't think I've ever attempted to put a return statement inside a finally block in my professional coding career. Typically finally blocks are used as clean up code from previous try blocks, and I would put any return statement at the end of the method.  However there are a couple of interesting learnings from attempting it. Suppose we have the following code:
 
