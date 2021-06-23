@@ -15,6 +15,8 @@ layout: default
 
 * [Page 86: How do you serialize an object in Java](grokking/serialization)
 
+* [Page 90: Decorator design pattern](grokking/decoratorPattern)
+
 * * * 
 
 ## Contact
