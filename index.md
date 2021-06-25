@@ -2,6 +2,16 @@
 layout: default
 ---
 
+## Contact
+Email: gahokas at gmail
+
+Twitter: [@gahokas](https://twitter.com/gahokas)
+
+LinkedIn: [LinkedIn](https://www.linkedin.com/in/graemeahokas)
+
+Strava: [strava](https://www.strava.com/athletes/1130999)
+
+
 ## Java
 
 ### Grokking the Java Interview
@@ -18,6 +28,16 @@ layout: default
 * [Page 90: Decorator design pattern](grokking/decoratorPattern)
 
 * * * 
+
+## Older stuff
+
+[JGraphT](https://jgrapht.org/) I contributed the initial implementation of the [Maximum Weight Bipartite Matching algorithm](https://jgrapht.org/javadoc/org.jgrapht.core/org/jgrapht/alg/matching/MaximumWeightBipartiteMatching.html)
+
+## Really old stuff
+
+[Efficient quantum algorithms for simulating sparse Hamiltonians](https://arxiv.org/abs/quant-ph/0508139)
+
+[Improved algorithms for approximate quantum fourier transforms and sparse hamiltonian simulations](https://prism.ucalgary.ca/handle/1880/41417)
 
 ## Contact
 Email: gahokas at gmail
