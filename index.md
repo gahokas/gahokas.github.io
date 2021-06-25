@@ -4,8 +4,11 @@ layout: default
 
 ## Contact
 Email: gahokas at gmail
+
 Twitter: [@gahokas](https://twitter.com/gahokas){:target="_blank"}
+
 LinkedIn: [LinkedIn](https://www.linkedin.com/in/graemeahokas){:target="_blank"}
+
 Strava: [strava](https://www.strava.com/athletes/1130999){:target="_blank"}
 
 
@@ -38,6 +41,9 @@ Strava: [strava](https://www.strava.com/athletes/1130999){:target="_blank"}
 
 ## Contact
 Email: gahokas at gmail
+
 Twitter: [@gahokas](https://twitter.com/gahokas){:target="_blank"}
+
 LinkedIn: [LinkedIn](https://www.linkedin.com/in/graemeahokas){:target="_blank"}
+
 Strava: [strava](https://www.strava.com/athletes/1130999){:target="_blank"}
