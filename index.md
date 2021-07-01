@@ -14,7 +14,7 @@ Strava: [strava](https://www.strava.com/athletes/1130999){:target="_blank"}
 
 ## Java
 
-### [Grokking the Java Interview - Book Review](grokking/grokking)
+### [Grokking the Java Interview - Book Review](grokking/)
 
 * * * 
 
