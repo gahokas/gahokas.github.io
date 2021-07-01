@@ -7,7 +7,7 @@ layout: default
 * Twitter: [@gahokas](https://twitter.com/gahokas){:target="_blank"}
 * LinkedIn: [LinkedIn](https://www.linkedin.com/in/graemeahokas){:target="_blank"}
 * Strava: [strava](https://www.strava.com/athletes/1130999){:target="_blank"}
-* * * 
+
 ## Java
 ### [Grokking the Java Interview - Book Review](grokking/)
 * * * 
