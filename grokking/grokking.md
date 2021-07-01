@@ -3,11 +3,10 @@ layout: default
 ---
 # Grokking the Java Interview - Book Review
 
-###
 [Javin Paul's](https://twitter.com/javinpaul){:target="_blank"} book [Grokking the Java Interview](https://gumroad.com/l/QqjGH){:target="_blank"} is a broad range of Java-based topics intended to assist Java developers prepping for the interview process.
 
 ### What's in the book
-The book contains a 159 pages of Java questions that a Java developer would (ideally) be able to answer. Topics include:
+The book contains 159 pages of Java questions that a Java developer would (ideally) be able to answer. Topics include:
  * Object Oriented programming (abstraction, polymorphism, overloading, overriding)
  * Core Java (String manipulation, basic algorithms, sorting, equality)
  * Multi-threading (race conditions, thread communication and sychronization techniques)
