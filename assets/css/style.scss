@@ -1,0 +1,18 @@
+---
+---
+
+@import"{{ site.theme }}";
+
+#main_content {
+  color: #000000;
+}
+
+body {
+  padding: 1em;
+}
+
+h4:before {
+  margin-left: 0em;
+  content: '';
+  padding-right: 0em;
+}
