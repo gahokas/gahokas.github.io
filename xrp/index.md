@@ -22,3 +22,18 @@ Typically secrets look like:
 sp6JS7f14BuwFY8Mw6bTtLKWauoUs
 ```
 Secrets can also come in a few different formats, such as a series of letters or numbers.
+
+### What is a wallet?
+A wallet is some software (or hardware / software combination) that stores two pieces of data for you:
+* Your address
+* Your secret
+
+Wallet software will allow you to create transactions on the public XRP leger. It does this by connecting to an XRP ledger server, and authorizing (signing) any XRP transaction from your address using your secret (actually, using your private / private key, which can be derived from your secret).
+
+If you want to send XRP to a friend or business or an exchange, your wallet uses your address and secret to do so.
+
+### What does a wallet hold?
+A wallet will hold your address and your secret, that’s it. You may have multiple addresses (and multiple corresponding secrets) in your wallet if you like.
+
+### A wallet doesn’t actually hold XRP?
+Correct. XRP are **not** stored in your wallet. Your XRP are stored in the public XRP ledger. The public XRP ledger records how many XRP are associated with each address. This means if you know your someone’s address, you can see how many XRP they have! This is all public information.
