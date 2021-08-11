@@ -13,6 +13,23 @@ Have more questions? Let me know!
 * [What does a wallet hold?](#what-does-a-wallet-hold)
 * [A wallet doesn’t actually hold XRP?](#a-wallet-doesnt-actually-hold-xrp)
 * [What is a wallet used for?](#what-is-a-wallet-used-for)
+* [I don’t need to keep my address and secret in a wallet all the time?](#i-dont-need-to-keep-my-address-and-secret-in-a-wallet-all-the-time)
+* [What kinds of wallets are there?](#what-kinds-of-wallets-are-there)
+* [What is a custodial wallet?](#what-is-a-custodial-wallet)
+* [How does an exchange keep track of whose XRP are whose with many customers using the same address?](#how-does-an-exchange-keep-track-of-whose-xrp-are-whose-with-many-customers-using-the-same-address)
+* [When sending XRP to a custodial wallet on an exchange, is the destination tag mandatory?](#when-sending-xrp-to-a-custodial-wallet-on-an-exchange-is-the-destination-tag-mandatory)
+* [Can I have multiple wallets with the same address?](#can-i-have-multiple-wallets-with-the-same-address)
+* [Is it safe to keep my XRP in an exchange?](#is-it-safe-to-keep-my-xrp-in-an-exchange)
+* [I’ve heard there is a 20 XRP reserve requirement. How does this work?](#ive-heard-there-is-a-20-xrp-reserve-requirement-how-does-this-work)
+* [Will the 20 XRP minimum be reduced?](#will-the-20-xrp-minimum-be-reduced)
+* [Can the 20 XRP reserve ever be recovered?](#id=can-the-20-xrp-reserve-ever-be-recovered)
+* [Can I delete an address, or merge two addresses?](#can-i-delete-an-address-or-merge-two-addresses)
+* [Why does my wallet show 20 XRP less than what I have?](#why-does-my-wallet-show-20-xrp-less-than-what-i-have)
+* [If I have XRP in a wallet app on my phone and I lose my phone, is my XRP lost?](#if-i-have-xrp-in-a-wallet-app-on-my-phone-and-i-lose-my-phone-is-my-xrp-lost)
+* [If I have XRP in a hardware wallet like a USB drive, and the drive fails, what happens?](#if-i-have-xrp-in-a-hardware-wallet-like-a-usb-drive-and-the-drive-fails-what-happens)
+* [I lost/forgot my address, but I still have a copy of my secret. Can I recover my address?](#i-lostforgot-my-address-but-i-still-have-a-copy-of-my-secret-can-i-recover-my-address)
+* [What are some popular XRP wallets?](#what-are-some-popular-xrp-wallets)
+* [If I want to receive some XRP from someone (or from my account on an exchange), do I need a wallet?](#if-i-want-to-receive-some-xrp-from-someone-or-from-my-account-on-an-exchange-do-i-need-a-wallet)
 
 
 ## What is an address?
