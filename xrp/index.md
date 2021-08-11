@@ -22,7 +22,7 @@ Have more questions? Let me know!
 * [Is it safe to keep my XRP in an exchange?](#is-it-safe-to-keep-my-xrp-in-an-exchange)
 * [I’ve heard there is a 20 XRP reserve requirement. How does this work?](#ive-heard-there-is-a-20-xrp-reserve-requirement-how-does-this-work)
 * [Will the 20 XRP minimum be reduced?](#will-the-20-xrp-minimum-be-reduced)
-* [Can the 20 XRP reserve ever be recovered?](#id=can-the-20-xrp-reserve-ever-be-recovered)
+* [Can the 20 XRP reserve ever be recovered?](#can-the-20-xrp-reserve-ever-be-recovered)
 * [Can I delete an address, or merge two addresses?](#can-i-delete-an-address-or-merge-two-addresses)
 * [Why does my wallet show 20 XRP less than what I have?](#why-does-my-wallet-show-20-xrp-less-than-what-i-have)
 * [If I have XRP in a wallet app on my phone and I lose my phone, is my XRP lost?](#if-i-have-xrp-in-a-wallet-app-on-my-phone-and-i-lose-my-phone-is-my-xrp-lost)
