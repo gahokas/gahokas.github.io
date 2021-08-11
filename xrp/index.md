@@ -7,6 +7,14 @@ As a fairly new investor in XRP, I was horribly confused by wallets, how they wo
 
 Have more questions? Let me know!
 
+* [What is an address?](#what-is-an-address)
+* [What is a secret?](#what-is-a-secret)
+* [What is a wallet?](#what-is-a-wallet)
+* [What does a wallet hold?](#what-does-a-wallet-hold)
+* [A wallet doesn’t actually hold XRP?](#a-wallet-doesnt-actually-hold-xrp)
+* [What is a wallet used for?](#what-is-a-wallet-used-for)
+
+
 ## What is an address?
 An address refers to an account on the public XRP ledger. Addresses look like 
 ```
@@ -39,7 +47,7 @@ A wallet will hold your address and your secret, that’s it. You may have multi
 Correct. XRP are **not** stored in your wallet. Your XRP are stored in the public XRP ledger. The public XRP ledger records how many XRP are associated with each address. This means if you know your someone’s address, you can see how many XRP they have! This is all public information.
 
 ## What is a wallet used for?
-A wallet is used as a convenient place to 1) store your address and secret, and 2) interact with the public XRP ledger to send XRP or check your balance. You don’t need to keep your address and secret in a wallet, but they make it easier.
+A wallet is used as a convenient place to 1) hold a copy of your address and secret, and 2) interact with the public XRP ledger to send XRP or check your balance. You don’t need to keep your address and secret in a wallet, but it makes it easier.
 
 ## I don’t need to keep my address and secret in a wallet all the time?
 Correct. All you need to do is store your address and secret somewhere safe. You can keep them in a text file on your computer, or you can print them out on a piece of paper and keep that safe if you like. If you need to check your balance or send some XRP, you can add the address and secret to a wallet, perform the transaction, and then remove the address and secret from the wallet.
@@ -83,7 +91,7 @@ The reserve requirement encourages XRP holders to be conservative with their use
 For retail investors then, you would generally want to limit the number of addresses you have.
 
 ## Will the 20 XRP minimum be reduced?
-Possibly at some point in the future, it could be reduced. It was reduced already from 50 XRP to 20 XRP in 2013. See https://xrpl.org/reserves.html#changing-the-reserve-requirements
+Possibly at some point in the future, it could be reduced. It was reduced already from 50 XRP to 20 XRP in 2013. See [changing the reserve requirements](https://xrpl.org/reserves.html#changing-the-reserve-requirements){:target="_blank"}
 
 ## Can the 20 XRP reserve ever be recovered?
 There are only two ways: 1) the 20 XRP reserve requirement is reduced, allowing access to some of the reserve, or 2) you delete an address, and send the XRP associated with that address to another address.
