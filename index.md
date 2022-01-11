@@ -17,9 +17,7 @@ layout: default
 * * * 
 ### Older stuff
 [JGraphT](https://jgrapht.org/){:target="_blank"} - I contributed the initial implementation of the [Maximum Weight Bipartite Matching algorithm](https://jgrapht.org/javadoc/org.jgrapht.core/org/jgrapht/alg/matching/MaximumWeightBipartiteMatching.html){:target="_blank"}
-* * *
-### Really old stuff
-#### Publications
+
 [Efficient quantum algorithms for simulating sparse Hamiltonians](https://arxiv.org/abs/quant-ph/0508139){:target="_blank"}
 
 [Improved algorithms for approximate quantum fourier transforms and sparse hamiltonian simulations](https://prism.ucalgary.ca/handle/1880/41417){:target="_blank"}
