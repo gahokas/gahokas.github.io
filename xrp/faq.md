@@ -20,11 +20,11 @@ Have more questions? Let me know!
 * [When sending XRP to a custodial wallet on an exchange, is the destination tag mandatory?](#when-sending-xrp-to-a-custodial-wallet-on-an-exchange-is-the-destination-tag-mandatory)
 * [Can I have multiple wallets with the same address?](#can-i-have-multiple-wallets-with-the-same-address)
 * [Is it safe to keep my XRP in an exchange?](#is-it-safe-to-keep-my-xrp-in-an-exchange)
-* [I’ve heard there is a 20 XRP reserve requirement. How does this work?](#ive-heard-there-is-a-20-xrp-reserve-requirement-how-does-this-work)
-* [Will the 20 XRP minimum be reduced?](#will-the-20-xrp-minimum-be-reduced)
-* [Can the 20 XRP reserve ever be recovered?](#can-the-20-xrp-reserve-ever-be-recovered)
+* [I’ve heard there is a 10 XRP reserve requirement. How does this work?](#ive-heard-there-is-an-xrp-reserve-requirement-how-does-this-work)
+* [Will the 10 XRP minimum be reduced?](#will-the-10-xrp-minimum-be-reduced)
+* [Can the 10 XRP reserve ever be recovered?](#can-the-10-xrp-reserve-ever-be-recovered)
 * [Can I delete an address, or merge two addresses?](#can-i-delete-an-address-or-merge-two-addresses)
-* [Why does my wallet show 20 XRP less than what I have?](#why-does-my-wallet-show-20-xrp-less-than-what-i-have)
+* [Why does my wallet show 10 XRP less than what I have?](#why-does-my-wallet-show-10-xrp-less-than-what-i-have)
 * [If I have XRP in a wallet app on my phone and I lose my phone, is my XRP lost?](#if-i-have-xrp-in-a-wallet-app-on-my-phone-and-i-lose-my-phone-is-my-xrp-lost)
 * [If I have XRP in a hardware wallet like a USB drive, and the drive fails, what happens?](#if-i-have-xrp-in-a-hardware-wallet-like-a-usb-drive-and-the-drive-fails-what-happens)
 * [I lost/forgot my address, but I still have a copy of my secret. Can I recover my address?](#i-lostforgot-my-address-but-i-still-have-a-copy-of-my-secret-can-i-recover-my-address)
@@ -99,25 +99,24 @@ Absolutely. Remember, all addresses and associated XRP are all on the public XRP
 ## Is it safe to keep my XRP in an exchange?
 When you keep your XRP in an exchange, you are trusting the exchange with your XRP, just like trusting a bank with your money. The exchange is trusted in keeping safe all the secrets for their ledger addresses they use to store their customers’ XRP. If those secrets are compromised, their customers could lose their XRP. If the exchange is hacked or compromised (or even goes out of business), you could lose all your XRP.
 
-
-## I’ve heard there is a 20 XRP reserve requirement. How does this work?
-Built into the XRP Ledger are some rules that help combat spam and malicious activity. One of these is the reserve requirement.  In order to activate a new address on the XRP ledger, it must have at least 20 XRP associated with it. These 20 XRP are “locked” and cannot be transferred out or sold. You still own them, but they are used to keep your ledger address active.
+## I’ve heard there is an XRP reserve requirement. How does this work?
+Built into the XRP Ledger are some rules that help combat spam and malicious activity. One of these is the reserve requirement.  In order to activate a new address on the XRP ledger, it must have at least 10 XRP associated with it. These 10 XRP are “locked” and cannot be transferred out or sold. You still own them, but they are used to keep your ledger address active.
 
 The reserve requirement encourages XRP holders to be conservative with their use of addresses, and it slows the growth of the size of the ledger, since it costs real money to activate a new address.
 
 For retail investors then, you would generally want to limit the number of addresses you have.
 
-## Will the 20 XRP minimum be reduced?
-Possibly at some point in the future, it could be reduced. It was reduced already from 50 XRP to 20 XRP in 2013. See [changing the reserve requirements](https://xrpl.org/reserves.html#changing-the-reserve-requirements){:target="_blank"}
+## Will the 10 XRP minimum be reduced?
+It does get reduced occasionally. It's been reduced a couple times, from 50 XRP to 20 in 2013, and then from 20 to 10 XRP in 2021. See [changing the reserve requirements](https://xrpl.org/reserves.html#changing-the-reserve-requirements){:target="_blank"}
 
-## Can the 20 XRP reserve ever be recovered?
-There are only two ways: 1) the 20 XRP reserve requirement is reduced, allowing access to some of the reserve, or 2) you delete an address, and send the XRP associated with that address to another address.
+## Can the 10 XRP reserve ever be recovered?
+There are only two ways: 1) the 10 XRP reserve requirement is reduced, allowing access to some of the reserve, or 2) you delete an address, and send the XRP associated with that address to another address.
 
 ## Can I delete an address, or merge two addresses?
 You can delete an address, and send the associated XRP to another address, effectively “merging” the two addresses. When you delete an address, there is a cost of 5 XRP. These 5 XRP is not a commission or fee charged by any exchange or wallet software. It is a fee built into the public XRP ledger. The 5 XRP are destroyed and can’t be recovered, again as an anti-spam mechanism to encourage purposeful use.
 
-## Why does my wallet show 20 XRP less than what I have?
-It’s likely your wallet software showing you how much XRP you actually have available. The software is subtracting off the 20 XRP reserve requirement. Your true balance is 20 XRP more.
+## Why does my wallet show 10 XRP less than what I have?
+It’s likely your wallet software showing you how much XRP you actually have available. The software is subtracting off the 10 XRP reserve requirement. Your true balance is 10 XRP more.
 
 ## If I have XRP in a wallet app on my phone and I lose my phone, is my XRP lost?
 Not necessarily. This is dependent on the security of your phone, the security of your XRP wallet app, and whether you kept a copy of your address and secret.
@@ -141,4 +140,3 @@ XUMM seems to be the most software popular wallet, and the Ledger Nano S seems t
 
 ## If I want to receive some XRP from someone (or from my account on an exchange), do I need a wallet?
 No. Once you have an address / secret pair (wallet software can generate one for you), your address on the public XRP ledger can receive XRP from anyone without any action on your part. Once the XRP has been transferred to your address, your wallet software would show your updated balance once it connects to an XRP ledger server.
-
