@@ -1,5 +1,6 @@
 ---
 layout: xrptools
+title: XRP Web Wallet and Tools
 ---
     
 <script src="https://unpkg.com/ripple-lib@1.10.0/build/ripple-latest-min.js"></script>
